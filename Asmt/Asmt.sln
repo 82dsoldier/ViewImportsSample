@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E2023E3-0ABB-4B96-974D-A25DE2CB1B78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AEEDCABA-1F0A-4B11-AF2E-C4050E44DEC5}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Asmt", "src\Asmt\Asmt.xproj", "{005EFD35-4A8F-4539-925C-F0429D1DF7E5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Asmt.Data", "src\Asmt.Data\Asmt.Data.xproj", "{DF1955F0-D5B5-4004-974E-5E2DD9B51AAC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QuickFrame.Data", "..\QuickFrameMVC\QuickFrame.Data\QuickFrame.Data.xproj", "{B836DFED-4A3B-4683-9B5A-2AFFDC7282C1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QuickFrame.Mvc", "..\QuickFrameMVC\QuickFrame.Mvc\QuickFrame.Mvc.xproj", "{7346C465-B790-4595-9A0E-26FD17667E89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{005EFD35-4A8F-4539-925C-F0429D1DF7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005EFD35-4A8F-4539-925C-F0429D1DF7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005EFD35-4A8F-4539-925C-F0429D1DF7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005EFD35-4A8F-4539-925C-F0429D1DF7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1955F0-D5B5-4004-974E-5E2DD9B51AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1955F0-D5B5-4004-974E-5E2DD9B51AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1955F0-D5B5-4004-974E-5E2DD9B51AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1955F0-D5B5-4004-974E-5E2DD9B51AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B836DFED-4A3B-4683-9B5A-2AFFDC7282C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B836DFED-4A3B-4683-9B5A-2AFFDC7282C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B836DFED-4A3B-4683-9B5A-2AFFDC7282C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B836DFED-4A3B-4683-9B5A-2AFFDC7282C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7346C465-B790-4595-9A0E-26FD17667E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7346C465-B790-4595-9A0E-26FD17667E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7346C465-B790-4595-9A0E-26FD17667E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7346C465-B790-4595-9A0E-26FD17667E89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{005EFD35-4A8F-4539-925C-F0429D1DF7E5} = {3E2023E3-0ABB-4B96-974D-A25DE2CB1B78}
+		{DF1955F0-D5B5-4004-974E-5E2DD9B51AAC} = {3E2023E3-0ABB-4B96-974D-A25DE2CB1B78}
+		{B836DFED-4A3B-4683-9B5A-2AFFDC7282C1} = {3E2023E3-0ABB-4B96-974D-A25DE2CB1B78}
+		{7346C465-B790-4595-9A0E-26FD17667E89} = {3E2023E3-0ABB-4B96-974D-A25DE2CB1B78}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://deacapp004/tfs/fpdp
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\Asmt\\Asmt.xproj
+		SccProjectTopLevelParentUniqueName1 = Asmt.sln
+		SccProjectName1 = src/Asmt
+		SccLocalPath1 = src\\Asmt
+		SccProjectUniqueName2 = src\\Asmt.Data\\Asmt.Data.xproj
+		SccProjectTopLevelParentUniqueName2 = Asmt.sln
+		SccProjectName2 = src/Asmt.Data
+		SccLocalPath2 = src\\Asmt.Data
+		SccProjectUniqueName3 = ..\\QuickFrameMVC\\QuickFrame.Data\\QuickFrame.Data.xproj
+		SccProjectTopLevelParentUniqueName3 = Asmt.sln
+		SccProjectName3 = ../QuickFrameMVC/QuickFrame.Data
+		SccLocalPath3 = ..\\QuickFrameMVC\\QuickFrame.Data
+		SccProjectUniqueName4 = ..\\QuickFrameMVC\\QuickFrame.Mvc\\QuickFrame.Mvc.xproj
+		SccProjectTopLevelParentUniqueName4 = Asmt.sln
+		SccProjectName4 = ../QuickFrameMVC/QuickFrame.Mvc
+		SccLocalPath4 = ..\\QuickFrameMVC\\QuickFrame.Mvc
+	EndGlobalSection
+EndGlobal

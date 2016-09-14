@@ -1,0 +1,23 @@
+--temp-output:C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\obj\Debug\net452\
+--out:C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\bin\Debug\net452\QuickFrame.Data.dll
+--define:DEBUG
+--define:TRACE
+--define:NET452
+--suppress-warning:CS1701
+--suppress-warning:CS1702
+--suppress-warning:CS1705
+--optimize:False
+--output-name:QuickFrame.Data
+--file-version:1.0.0.0
+--version:1.0.0.0
+--informational-version:1.0.0
+--target-framework:.NETFramework,Version=v4.5.2
+--reference:C:\Users\Drew.Burchett\.nuget\packages\Expressmapper\1.8.3\lib\net45\ExpressMapper.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.dll
+C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\Dtos\DataTransferObject.cs
+C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\Interfaces\Dtos\IDataTransferObject.cs
+C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\Models\DataModel.cs
+C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\Properties\AssemblyInfo.cs

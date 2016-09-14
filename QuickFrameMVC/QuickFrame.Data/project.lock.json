@@ -1,0 +1,49 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "Expressmapper/1.8.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/ExpressMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ExpressMapper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Expressmapper/1.8.3": {
+      "sha512": "tWl7DPsge8JeaR9XEUBoTn85JZEVR8LnOPykOcpIg+tfbAAKLS324at5LFRdp3GV0m1gsVyfXLhvAoyPYjACTg==",
+      "type": "package",
+      "path": "Expressmapper/1.8.3",
+      "files": [
+        "Expressmapper.1.8.3.nupkg.sha512",
+        "Expressmapper.nuspec",
+        "lib/dotnet/ExpressMapper.deps.json",
+        "lib/dotnet/ExpressMapper.dll",
+        "lib/dotnet/ExpressMapper.pdb",
+        "lib/net40/ExpressMapper.dll",
+        "lib/net40/ExpressMapper.pdb",
+        "lib/net40/ExpressMapper.xml",
+        "lib/net45/ExpressMapper.dll",
+        "lib/net45/ExpressMapper.pdb",
+        "lib/net45/ExpressMapper.xml",
+        "lib/net46/ExpressMapper.dll",
+        "lib/net46/ExpressMapper.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/ExpressMapper.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/ExpressMapper.pdb"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Expressmapper >= 1.8.3"
+    ],
+    ".NETFramework,Version=v4.5.2": []
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}

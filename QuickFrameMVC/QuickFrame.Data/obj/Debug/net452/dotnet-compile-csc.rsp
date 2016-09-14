@@ -1,0 +1,21 @@
+﻿-d:DEBUG
+-d:TRACE
+-d:NET452
+-nowarn:CS1701
+-nowarn:CS1702
+-nowarn:CS1705
+-t:library
+-debug:full
+-nostdlib
+-nologo
+"C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\obj\Debug\net452\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\bin\Debug\net452\QuickFrame.Data.dll"
+-r:"C:\Users\Drew.Burchett\.nuget\packages\Expressmapper\1.8.3\lib\net45\ExpressMapper.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.dll"
+"C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\Dtos\DataTransferObject.cs"
+"C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\Interfaces\Dtos\IDataTransferObject.cs"
+"C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\Models\DataModel.cs"
+"C:\Source Code\FPDP\QuickFrameMVC\QuickFrame.Data\Properties\AssemblyInfo.cs"
