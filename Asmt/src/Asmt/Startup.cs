@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.Extensions.FileProviders;
 
 namespace Asmt {
 
@@ -23,10 +24,14 @@ namespace Asmt {
 
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services) {
-			// services.Configure<RazorViewEngineOptions>(options => { options.FileProviders.Add(new
-			// EmbeddedFileProvider( typeof(ControllerCore).GetTypeInfo().Assembly,
-			// "QuickFrame.Mvc")); }); Add framework services.
+            // Add framework services.
 			services.AddMvc();
+            services.Configure<RazorViewEngineOptions>(options =>
+            {
+                options.FileProviders.Add(new EmbeddedFileProvider(
+                    typeof(QuickFrame.Mvc.ControllerCore).Assembly,
+                    "QuickFrame.Mvc"));
+            });
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,12 +47,6 @@ namespace Asmt {
 			}
 
 			app.UseStaticFiles();
-
-			IOptions<RazorViewEngineOptions> razorViewEngineOptions =
-	app.ApplicationServices.GetService<IOptions<RazorViewEngineOptions>>();
-			//razorViewEngineOptions.Value.FileProviders.Add(new EmbeddedFileProvider(
-			//		typeof(ControllerCore).GetTypeInfo().Assembly,
-			//		"QuickFrame.Mvc"));
 
 			app.UseMvc(routes => {
 				routes.MapRoute(
